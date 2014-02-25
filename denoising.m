@@ -20,8 +20,8 @@ sound(y1,fs)
 h = zeros(1,L);
 % Fill in the values of h[n] determined by your design.
 % e.g. if h[n] = delta[n - 2] + 4*delta[n - 3], you would have:
-% h[3] = 1;
-% h[4] = 4;
+% h(3) = 1;
+% h(4) = 4;
 
 % Filtering the corrupted signal via convolution:
 out1 = conv(y1,h);
